@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Assessment from "@/components/Assessment";
 import MajorCategories from "@/components/MajorCategories";
 import Footer from "@/components/Footer";
+import ProjectReport from "@/components/ProjectReport";
 
 const Index = () => {
   return (
@@ -16,6 +17,9 @@ const Index = () => {
           <MajorCategories />
         </section>
         <Assessment />
+        <section id="report">
+          <ProjectReport />
+        </section>
       </main>
       <Footer />
     </div>
